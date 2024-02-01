@@ -1,0 +1,63 @@
+ body  {
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+.navbar {
+    background-color: #fa0505;
+}
+
+#cabecalho .nav .nav-link.active {
+    background-color: #fff;
+    color: #fa0505;
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+.nav-promocoes .nav-link.active:hover{
+    color: #fff;
+}
+
+.navbar-toggler {
+    background-color: #fff;
+}
+
+.section-title {
+    font-family: Pacifico, cursive;
+}
+
+#sobre-o-supermercado, 
+#promocoes {
+    background-color: #fff;
+}
+
+.text-colored {
+    color: #031fbe;
+}
+
+.nav-promocoes .nav-link.active,
+#fale-conosco button {
+    background-color: #fa0505;
+    color: #fff;
+}
+
+.nav-promocoes .nav-link:hover {
+    color: #fa0505;
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links a {
+    text-decoration: none;
+}
+
+@media (max-width: 767px) {
+    .carousel-item img {
+        height: 280px;
+    }
+}
